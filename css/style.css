@@ -57,10 +57,12 @@
 
 .navbar-search .input-group{border:1px solid #ddd;}
 .table td{color: #333!important;}
+.form-control:focus:focus{box-shadow:none!important;}
 
 @media (min-width: 576px){
 .form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;}
-.form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;padding: 0px;}
+.form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;padding: 0px;border-radius: 30px;
+    overflow: hidden;}
 }
 
 @media (min-width: 768px){
