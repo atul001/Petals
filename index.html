@@ -28,7 +28,7 @@
         <!-- Page Wrapper -->
         <div id="wrapper">
             <!-- Sidebar -->
-            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
                 <!-- Sidebar - Brand -->
                 <div class="logo-holder">
                     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -250,8 +250,11 @@
                         <!--Language and location button-->
                         <div class="lang-loc-btn ml-auto d-flex">
                             <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle btn-sm mr-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-globe"></i><span class="d-none d-sm-done d-md-block">&nbsp;Eng</span>
+                                <button class="btn btn-default dropdown-toggle btn-sm mr-2 btn-sm d-none d-sm-none d-md-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-globe">&nbsp;</i>Eng
+                                </button>
+                                <button class="btn btn-default dropdown-toggle btn-sm mr-2 d-block d-sm-block d-md-none" type="button" id="dropdownMenuButton-mob" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-globe"></i>
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Hindi</a>
@@ -261,8 +264,11 @@
                             </div>
 
                             <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-map-marker-alt"></i><span class="d-none d-sm-done d-md-block">&nbsp;Nirman Vihar</span>
+                                <button class="btn btn-default dropdown-toggle btn-sm d-none d-sm-none d-md-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-map-marker-alt">&nbsp;</i>Nirman Vihar
+                                </button>
+                                <button class="btn btn-default dropdown-toggle btn-sm d-block d-sm-block d-md-none" type="button" id="dropdownMenuButtonl-mob" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-map-marker-alt"></i>
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Noida</a>
@@ -1900,7 +1906,7 @@
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
         <!-- Custom scripts for all pages-->
-        <script src="js/sb-admin-2.min.js"></script>
+        <script src="js/admin-2.min.js"></script>
 
         <!-- Page level plugins -->
         <script src="vendor/chart.js/Chart.min.js"></script>
