@@ -31,12 +31,22 @@
 .card-three{background: linear-gradient(45deg, #8c05a6, #c215e3);}
 .card-four{background: linear-gradient(45deg, #038d4a, #07c568);}
 .card-five{background: linear-gradient(45deg, #ad0505, #f55718);}
+.card-icon{background: #fff;padding: 7px!important;border-radius: 100%;height: 45px;width: 45px;display: flex;align-items: center;justify-content: center;float:right;}
+.card-icon .fa, .card-icon .fas{font-size:1.3rem;}
+.card-one .card-icon .fa, .card-one .card-icon .fas{color:#043f9e;}
+.card-two .card-icon .fa, .card-two .card-icon .fas{color:#079da6;}
+.card-three .card-icon .fa, .card-three .card-icon .fas{color:#8c05a6;}
+.card-four .card-icon .fa, .card-four .card-icon .fas{color:#038d4a;}
+.card-five .card-icon .fa, .card-five .card-icon .fas{color:#ad0505;}
+
 
 .smaller{font-size:60%;}
 .big-text{font-size:20px;}
 .medium-text{font-size:18px;}
 .small-text-13{font-size:13px;}
 .small-text-14{font-size:14px;}
+.small-text-15{font-size:15px;}
+.small-text-16{font-size:16px;}
 
 .text-light{color:#fff;}
 .text-light-800{font-weight: 800;color:#fff;}
