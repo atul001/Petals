@@ -52,7 +52,7 @@
 .logo-holder {width:100%;position:relative;background:#fff;}
 .logo-holder img{max-width:100%;max-height:100%;top:0;bottom:0;left:0;right:0;position:absolute;margin: auto;padding:inherit;}
 
-.topbar .nav-item .nav-link{padding: 0 0.75rem;}
+.topbar .nav-item .nav-link{padding: 0 0.55rem;}
 
 .card-one{background: linear-gradient(45deg, #043f9e, #1a85e7);}
 .card-two{background: linear-gradient(45deg, #079da6, #0aded6);}
@@ -77,6 +77,7 @@
 
 .event-calender .fc-button-group .fc-button{color: #8a4af1;font-weight: 600;}
 
+.navbar{padding:0.5rem;}
 .navbar-search .form-control{box-shadow: none;}
 .navbar-search .input-group{border:1px solid #a0c8ee;}
 .user-text{display:none;}
@@ -87,7 +88,7 @@
 
 .table td{color: #333;}
 .form-control:focus:focus{box-shadow:none!important;}
-#messagesDropdown i, #alertsDropdown i{font-size:24px;}
+#messagesDropdown i, #alertsDropdown i{font-size:17px;}
 
 .scroll-to-top{z-index:99;}
 
@@ -104,5 +105,8 @@
 .sidebar.toggled .nav-item .collapse, .sidebar.toggled .nav-item .collapsing{z-index: 11;}
 .sidebar.toggled .nav-item .nav-link{padding: 0.75rem 0.5rem;}
 .topbar .nav-item .nav-link{padding: 0 0.55rem;}
+#messagesDropdown i, #alertsDropdown i{font-size:24px;}
+.topbar .nav-item .nav-link{padding: 0 0.75rem;}
+.navbar{padding: 0.5rem 1rem;}
 }
 
