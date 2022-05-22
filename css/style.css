@@ -62,10 +62,10 @@
 .card-icon{background: #fff;padding: 7px!important;border-radius: 100%;height: 45px;width: 45px;display: flex;align-items: center;justify-content: center;float:right;}
 .card-icon .fa, .card-icon .fas{font-size:1.3rem;}
 .card-one .card-icon .fa, .card-one .card-icon .fas{color:#1981e3;}
-.card-two .card-icon .fa, .card-two .card-icon .fas{color:#079da6;}
+.card-two .card-icon .fa, .card-two .card-icon .fas{color:#0adad3;}
 .card-three .card-icon .fa, .card-three .card-icon .fas{color:#8c05a6;}
-.card-four .card-icon .fa, .card-four .card-icon .fas{color:#038d4a;}
-.card-five .card-icon .fa, .card-five .card-icon .fas{color:#ad0505;}
+.card-four .card-icon .fa, .card-four .card-icon .fas{color:#06c066;}
+.card-five .card-icon .fa, .card-five .card-icon .fas{color:#ef5017;}
 
 .progress-sm {height: 0.3rem;}
 .progress .progress-bar {position: relative!important;}
@@ -79,11 +79,13 @@
 
 .navbar-search .form-control{box-shadow: none;}
 .navbar-search .input-group{border:1px solid #a0c8ee;}
+.user-text{display:none;}
+.user-text-mobile{display: flex;flex-flow: row;height: 3.32rem;padding: 10px 10px 10px 10px;border-bottom: 1px solid #ddd;background: #f7f7f7;margin-bottom:10px;}
 
 .chart-btn{padding:4px 5px;background: #cad5f6;color: #6f8de5;margin-right: 5px;border-radius: 3px;font-size:11px;}
 .month-nme span{color:#333;font-weight: 600;font-size: 14px;}
 
-.table td{color: #333!important;}
+.table td{color: #333;}
 .form-control:focus:focus{box-shadow:none!important;}
 #messagesDropdown i, #alertsDropdown i{font-size:24px;}
 
@@ -93,6 +95,7 @@
 .form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;}
 .form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;padding: 0px;border-radius: 30px;
     overflow: hidden;}
+.user-text{display:flex;flex-flow: column;}
 }
 
 @media (min-width: 768px){
@@ -100,5 +103,6 @@
 .topbar .nav-item .nav-link{padding: 0 0.5rem;}
 .sidebar.toggled .nav-item .collapse, .sidebar.toggled .nav-item .collapsing{z-index: 11;}
 .sidebar.toggled .nav-item .nav-link{padding: 0.75rem 0.5rem;}
+.topbar .nav-item .nav-link{padding: 0 0.55rem;}
 }
 

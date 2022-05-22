@@ -47,6 +47,8 @@ var myLineChart = new Chart(ctx, {
       pointHitRadius: 10,
       pointBorderWidth: 2,
       data: [0, 10000, 5000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000],
+      //data: [0, 10%, 5%, 15%, 10%, 20%, 15%, 25%, 20%, 30%, 25%, 40%],
+      
     }],
   },
   options: {
