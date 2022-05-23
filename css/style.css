@@ -114,10 +114,10 @@
         font-size: 45px;
         color: #3db24b;
         font-weight: bold;
-        margin-bottom: 0px;
+        margin-bottom: 0px;line-height:40px;
     }
     .chart-text p {
-        font-size: 15px;
+        font-size: 13px;
         color: #3db24b;
         margin-bottom: 0px;
         position: relative;
