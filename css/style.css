@@ -93,6 +93,35 @@
 .evnt-ccal-div{display: flex;flex-flow: row;align-items: center;flex: 1;justify-content: space-between;}
 
 .scroll-to-top{z-index:99;}
+.chart-pie{display: flex;
+    justify-content: unset;
+    align-items: center;
+    flex-flow: column;}
+    .chart-text {
+        position: absolute;
+        top: 40%;
+        width: 125px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 37px!important;
+        height: 77px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .chart-text h4 {
+        font-size: 45px;
+        color: #3db24b;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .chart-text p {
+        font-size: 15px;
+        color: #3db24b;
+        margin-bottom: 0px;
+        position: relative;
+    }
 
 @media (min-width: 576px){
 .form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;}
