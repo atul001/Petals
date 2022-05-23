@@ -37,7 +37,7 @@ var ctx = document.getElementById("myPieChart_2");
 var myPieChart_2 = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["New Admission", "Cancel"],
+    labels: ["Fee Pay", "Fee due"],
     datasets: [{
       data: [78, 22],
       backgroundColor: ['#3db24b', '#ff6700'],
