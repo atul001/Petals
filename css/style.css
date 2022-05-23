@@ -47,6 +47,7 @@
 .sidebar .sidebar-brand{padding:0.5rem 0.5rem}
 .sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{padding:0.5rem;margin:0 0rem;}
 .sidebar .nav-item .nav-link{padding: 0.75rem 0.5rem;}
+.sidebar .nav-item .collapse{z-index: 12;}
 .content-blocks .shadow .card-body{padding: 0.75rem 0.75rem;}
 
 .logo-holder {width:100%;position:relative;background:#fff;}
@@ -89,6 +90,7 @@
 .table td{color: #333;}
 .form-control:focus:focus{box-shadow:none!important;}
 #messagesDropdown i, #alertsDropdown i{font-size:17px;}
+.evnt-ccal-div{display: flex;flex-flow: row;align-items: center;flex: 1;justify-content: space-between;}
 
 .scroll-to-top{z-index:99;}
 
@@ -108,5 +110,6 @@
 #messagesDropdown i, #alertsDropdown i{font-size:24px;}
 .topbar .nav-item .nav-link{padding: 0 0.75rem;}
 .navbar{padding: 0.5rem 1rem;}
+.evnt-ccal-div{display: flex;flex-flow: column;flex:initial}
 }
 
