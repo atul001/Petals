@@ -76,6 +76,8 @@
 .card-four .progress .progress-bar{background-color:#05cd6c;}
 .card-five .progress .progress-bar{background-color:#f7470a;}
 
+.card-footer{background: transparent;border:none;}
+
 .event-calender .fc-button-group .fc-button{color: #8a4af1;font-weight: 600;}
 
 .navbar{padding:0.5rem;}
@@ -123,10 +125,11 @@
         position: relative;
     }
 
+.table th{background: transparent;font-weight: bold;color:#333;border-top:0px;}
+
 @media (min-width: 576px){
 .form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;}
-.form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;padding: 0px;border-radius: 30px;
-    overflow: hidden;}
+.form-inline .custom-select, .form-inline .input-group {width: auto;margin-right: 5px;padding: 0px;border-radius: 30px;overflow: hidden;}
 .user-text{display:flex;flex-flow: column;}
 }
 
